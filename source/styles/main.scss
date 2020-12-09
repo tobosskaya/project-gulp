@@ -1,0 +1,23 @@
+$primary-color: rgb(74, 97, 21);
+
+p{
+    color: $primary-color;
+}
+.papa{
+    width: 500px;
+    height: 600px;
+    background-color: rgb(65, 24, 24);
+}
+.mama{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(182, 137, 137);
+}
+
+.papa{
+    .son{
+        width: 50px;
+        height: 60px;
+        background-color: $primary-color;
+    }
+}
